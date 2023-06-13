@@ -1,0 +1,71 @@
+{
+  "name": "web-performance-opt",
+  "version": "1.0.0",
+  "description": "前端性能优化",
+  "scripts": {
+    "dev": "ves dev",
+    "debug": "ves debug",
+    "start": "ves start",
+    "build": "ves tsc && ves build",
+    "size": "ves build test --size",
+    "tsc": "ves tsc",
+    "cov": "ves cov",
+    "test": "ves test",
+    "lint": "tslint --project .",
+    "fix": "tslint --project . --fix",
+    "ii": "npm install --registry https://registry.npm.taobao.org",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "dependencies": {
+    "@hubcarl/json-typescript-mapper": "^2.0.0",
+    "element-ui": "^2.0.8",
+    "extend": "~3.0.0",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4",
+    "lodash-id": "^0.14.0",
+    "lowdb": "^1.0.0",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.17.1",
+    "shortid": "^2.2.8",
+    "showdown": "^1.8.6",
+    "simplemde": "^1.11.2",
+    "ves": "^2.0.0",
+    "vue-material-input": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.117",
+    "@types/lowdb": "^1.0.6",
+    "@types/shortid": "^0.0.29",
+    "cz-conventional-changelog": "^2.1.0",
+    "ves-cli": "^2.0.0",
+    "less": "^3.0.0",
+    "less-loader": "^7.0.0"
+  },
+  "egg": {
+    "framework": "ves",
+    "typescript": true
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "ci": {
+    "version": "8, 10, 12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easy-team/ves-admin.git"
+  },
+  "author": "hubcarl@126.com",
+  "license": "MIT",
+  "homepage": "https://github.com/easy-team/ves-admin.git",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "webpack": {
+    "loaders": {
+      "less": true
+    }
+  }
+}

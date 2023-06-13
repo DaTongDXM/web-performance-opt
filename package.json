@@ -53,11 +53,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easy-team/ves-admin.git"
+    "url": "git+https://github.com/DaTongDXM/web-performance-opt"
   },
   "author": "hubcarl@126.com",
   "license": "MIT",
-  "homepage": "https://github.com/easy-team/ves-admin.git",
+  "homepage": "https://github.com/DaTongDXM/web-performance-opt",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
